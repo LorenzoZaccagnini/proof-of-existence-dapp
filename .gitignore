@@ -1,0 +1,5 @@
+node_modules
+build
+app/src/node_modules
+app/src/contracts
+.DS_Store
