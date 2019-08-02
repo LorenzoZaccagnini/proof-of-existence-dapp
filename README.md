@@ -4,7 +4,7 @@
 Try this DAPP live (Rinkeby) at [https://proofofexistence.netlify.com/](https://proofofexistence.netlify.com/)
 
 Final Project for the ConsenSys Academy 2019 Developer Program. This Dapp allows users to store their files inside IPFS and tracking them using Ethereum blockchain. The timestamp and IPFS hash link of the file will be recorded inside the smart contract, the content of the file will be stored inside IPFS.
-This kind of system is scalable and fairly cheap, allowing user to prove a file existence, if is tampered or if it's the original file they've uploaded, just looking at the hash and the timestamp.
+This kind of system is scalable and fairly cheap, allowing users to prove a file existence, if is tampered or if it's the original file they've uploaded, just looking at the hash and the timestamp.
 
 
 
