@@ -29,7 +29,8 @@ contract Poe is Ownable, Pausable {
   mapping (uint => address) public dataOwner;
 
   /**
-  * @dev Get owner data indexes
+  * @notice Get the indexes of the files previously inserted by the user
+  * @dev Get owner data from ownerIndexes mapping
   * @return Array uint ownerIndexes
   */
   function getIndexes() public view returns (uint[] memory) {
@@ -37,7 +38,8 @@ contract Poe is Ownable, Pausable {
   }
 
   /**
-  * @dev The owner get file info by the index
+  * @notice The owner of the file get the single file info by the index
+  * @dev The owner get file from ipfsData using the index input
   * @return name, hashLink, tags, timestamp, dataExt
   */
   function getData(uint _index) public view returns (string memory, string memory, string memory, uint, string memory) {
@@ -63,7 +65,8 @@ contract Poe is Ownable, Pausable {
   }
 
   /**
-  * @dev Add data
+  * @notice Add data of a file
+  * @dev add a new ipfsData struct element and emit newData event
   * @param _name Name of the file
   * @param _hashLink Hash of IPFS file
   * @param _tags concatenate tags string
