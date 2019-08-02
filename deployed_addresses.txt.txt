@@ -1,3 +1,7 @@
+Contracts on Rinkeby:
+* Migrations: 0x02c8430Df75E53a4FdaC234C0bE4c36ea7A7Ca30
+* Poe: 0x4d52DF1eCc8cC14a8d1427e034b6DCcF32542368
+
 Starting migrations...
 ======================
 > Network name:    'rinkeby'
